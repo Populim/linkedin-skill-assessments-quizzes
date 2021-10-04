@@ -543,7 +543,7 @@ Ubuntu EC2 instance configured as a web server?
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
 - [ ] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
       Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
-- [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
+- [X] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
       secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
 - [ ] ?> All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
